@@ -1,0 +1,13 @@
+Application Architecture and Concurrency Handling:
+The application follows a client-server architecture, where the server handles communication between clients and manages the chat rooms. It uses the Socket.IO library for real-time bidirectional communication between the server and clients.
+
+Concurrency is handled by Socket.IO, which uses event-driven programming to manage multiple connections simultaneously. Each client connection is treated as an event, and the server can handle multiple such events concurrently using event listeners and callbacks.
+
+Assumptions and Design Choices:
+Real-time Communication: The application is designed to provide real-time chat functionality, allowing users to send and receive messages instantly.
+Scalability: The architecture is chosen with scalability in mind, enabling the application to handle a large number of concurrent users efficiently.
+User Experience: The client application is designed with a user-friendly interface to enhance the user experience and make it easy for users to interact with the chat system.
+Minimalistic Design: The design of both the server and client applications is kept minimalistic to reduce complexity and ensure ease of maintenance and future enhancements.
+
+
+
