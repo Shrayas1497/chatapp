@@ -1,3 +1,3 @@
 # chatapp
 chatapp
-The  Following  app consist of MERN  stack which is MONGODB,Express.js,React.js,NODE.js.
+The  Following  app consist of Express.js,NODE.js.
